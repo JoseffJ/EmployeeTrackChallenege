@@ -1,7 +1,5 @@
 import { Pool } from 'pg';
 
-import { Pool } from 'pg';
-
 // Create a connection pool to PostgreSQL
 const pool = new Pool({
   user: 'your_database_user',          // Replace with your PostgreSQL username
