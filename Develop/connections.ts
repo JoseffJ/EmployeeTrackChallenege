@@ -6,16 +6,3 @@ const pool = new Pool({
     database: 'your_database_name',      
     password: 'your_database_password',  
     port: 5432,                         
-  });
-
-  pool.connect((err, client, release) => {
-    if (err) {
-      console.error('Error acquiring client', err.stack);
-    } else {
-      console.log('Database connection established');
-    }
-    release();
-  });
-  
-  
-  export default pool;
