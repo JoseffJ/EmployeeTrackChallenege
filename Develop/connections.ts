@@ -6,4 +6,3 @@ const pool = new Pool({
     database: 'your_database_name',      
     password: 'your_database_password',  
     port: 5432,                         
-  });
