@@ -1,4 +1,4 @@
-import pool from './connections.ts';
+import pool from './connections';
 
 export const getAllDepartments = async (): Promise<any[]> => {
   const res = await pool.query('SELECT * FROM departments');
