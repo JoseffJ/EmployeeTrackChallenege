@@ -93,6 +93,10 @@ Install my-project with npm
 
 You can use this project to Add to your current Database of employees, departments, and even roles. Once you run "npx ts-node CLI.ts" you can browse through your current list and you can remove and add data too it so its modular enough to fit any type of scenario
 
+##Demo
+
+[Demo]https://youtu.be/CcfWXifdMVY
+
 
 
 <!-- Contact -->
@@ -107,5 +111,3 @@ Thanks to [https://github.com/Louis3797/awesome-readme-template] for the README 
 
 
 =======
-# EmployeeTrackerChallenege
->>>>>>> main
