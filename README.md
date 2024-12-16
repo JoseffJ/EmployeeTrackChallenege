@@ -20,7 +20,7 @@ Removed sections:
 
 <div align="center">
 
-  <img src="assets/logo.png" alt="logo" width="200" height="auto" />
+
   <h1>Employee Tracker Program</h1>
   
 
