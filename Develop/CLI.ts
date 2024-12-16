@@ -1,12 +1,16 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import inquirer from 'inquirer';
-import { Pool } from 'pg';
+import pkg from 'pg';
+const { Pool } = pkg;
 
 
 const pool = new Pool({
-  user: 'your_database_user',
+  user: 'postgres',
   host: 'localhost',
-  database: 'your_database_name',
-  password: 'your_database_password',
+  database: 'employee_tracker',
+  password: 'gwyn',
   port: 5432,
 });
 
